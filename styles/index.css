@@ -1153,7 +1153,7 @@ footer #right a:visited {
     height: 850px;
   }
   main .second-container {
-    height: 1200px;
+    height: 1250px;
     gap: 2%;
   }
   main .second-container .container-1 {
@@ -1161,11 +1161,11 @@ footer #right a:visited {
   }
   main .second-container .container-2 .skills {
     margin-top: 20px;
-    transform: translateY(150px) !important;
+    transform: translateY(190px) !important;
   }
   main .second-container .container-2 .skills p {
     margin: 5px;
-    font-size: 10px !important;
+    font-size: 8px !important;
   }
   main .fourth-container {
     height: 900px;
