@@ -1,0 +1,402 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+main .portfolio_second_container {
+  height: 1800px;
+}
+main .portfolio_second_container figure {
+  display: block;
+  margin: 0 auto;
+  height: 35%;
+  width: 45%;
+  background-color: rgba(128, 128, 128, 0.233);
+  box-shadow: 2px 2px 12px black;
+  border-radius: 12px;
+}
+main .portfolio_second_container figure img {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+main .portfolio_second_container .card {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.692);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5%;
+  display: flex;
+}
+main .portfolio_second_container .card #eks {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  width: 2.7%;
+  height: 5%;
+  color: lightgrey;
+}
+main .portfolio_second_container .card #eks:hover {
+  border-radius: 50%;
+  color: white;
+}
+main .portfolio_second_container .card #eks:active {
+  width: 2.7%;
+  height: 5%;
+  background-color: grey;
+}
+main .portfolio_second_container .card .img {
+  width: 70%;
+  height: 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 7px;
+}
+main .portfolio_second_container .card .caption {
+  width: 50%;
+  border-radius: 7px;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+}
+main .portfolio_second_container .card .caption h2 {
+  font-size: 60px;
+  color: white;
+}
+main .portfolio_second_container article {
+  width: 50%;
+  margin: 0 auto;
+}
+main .portfolio_second_container article .project_overview {
+  margin: 25px 0;
+}
+main .portfolio_second_container article .project_overview h3 {
+  margin-bottom: 20px;
+}
+main .portfolio_second_container article .project_overview p {
+  line-height: 2rem;
+  color: rgb(83, 82, 82);
+}
+main .portfolio_second_container article .tools_used {
+  margin: 25px 0 30px;
+}
+main .portfolio_second_container article .tools_used h3 {
+  margin-bottom: 20px;
+}
+main .portfolio_second_container article .tools_used p {
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.471);
+  margin: 10px;
+  padding: 20px;
+  font-size: 12px;
+  color: black;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  width: auto;
+  white-space: nowrap;
+  float: left;
+}
+main .portfolio_second_container article .tools_used p:nth-child(1) {
+  animation: one 1s linear 0s both;
+  animation-timeline: view();
+  animation-range: 5% 50%;
+}
+main .portfolio_second_container article .tools_used p:nth-child(1):hover {
+  background-color: orange;
+  box-shadow: 2px 2px 12px grey;
+  width: auto;
+}
+main .portfolio_second_container article .tools_used p:nth-child(2) {
+  animation: two 6s linear 6s both;
+  animation-timeline: view();
+  animation-range: 5% 50%;
+}
+main .portfolio_second_container article .tools_used p:nth-child(2):hover {
+  background-color: yellow;
+  box-shadow: 2px 2px 12px grey;
+}
+main .portfolio_second_container article .tools_used p:nth-child(3) {
+  animation: three 12s linear 12s both;
+  animation-timeline: view();
+  animation-range: 5% 50%;
+}
+main .portfolio_second_container article .tools_used p:nth-child(3):hover {
+  background-color: rgb(64, 64, 255);
+  box-shadow: 2px 2px 12px grey;
+}
+main .portfolio_second_container article .tools_used p:nth-child(4) {
+  animation: four 18s linear 18s both;
+  animation-timeline: view();
+  animation-range: 5% 50%;
+}
+main .portfolio_second_container article .tools_used p:nth-child(4):hover {
+  background-color: rgb(255, 118, 141);
+  box-shadow: 2px 2px 12px grey;
+}
+main .portfolio_second_container article .tools_used p:nth-child(5) {
+  animation: five 24s linear 24s both;
+  animation-timeline: view();
+  animation-range: 5% 50%;
+}
+main .portfolio_second_container article .tools_used p:nth-child(5):hover {
+  background-color: red;
+  box-shadow: 2px 2px 12px grey;
+}
+main .portfolio_second_container article .tools_used p:nth-child(6) {
+  animation: six 30s linear 30s both;
+  animation-timeline: view();
+  animation-range: 5% 50%;
+}
+main .portfolio_second_container article .tools_used p:nth-child(6):hover {
+  background-color: black;
+  box-shadow: 2px 2px 12px grey;
+  color: white;
+}
+main .portfolio_second_container article .tools_used p:nth-child(7) {
+  animation: seven 36s linear 36s both;
+  animation-timeline: view();
+  animation-range: 5% 50%;
+}
+main .portfolio_second_container article .tools_used p:nth-child(7):hover {
+  background-color: greenyellow;
+  box-shadow: 2px 2px 12px grey;
+}
+main .portfolio_second_container article .tools_used p:last-child {
+  animation: eight 42s linear 42s both;
+  animation-timeline: view();
+  animation-range: 5% 50%;
+}
+main .portfolio_second_container article .tools_used p:last-child:hover {
+  background-color: blue;
+  box-shadow: 2px 2px 12px grey;
+}
+main .portfolio_second_container article .see_lived {
+  margin: 25px 0;
+  clear: left;
+  display: block;
+  transform: translateY(20px);
+}
+main .portfolio_second_container article .see_lived h3 {
+  margin-bottom: 20px;
+}
+main .portfolio_second_container article .see_lived .buttons button:nth-child(1) {
+  height: 60px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 70;
+  font-size: 16px;
+  color: white;
+  background-color: rgb(35, 35, 35);
+  letter-spacing: 0.2rem;
+  width: 190px;
+  cursor: pointer;
+  border-radius: 13px;
+}
+main .portfolio_second_container article .see_lived .buttons button:nth-child(2) {
+  height: 60px;
+  border: 2px solid rgb(35, 35, 35);
+  text-transform: uppercase;
+  font-weight: 70;
+  font-size: 16px;
+  color: rgb(35, 35, 35);
+  background-color: transparent;
+  letter-spacing: 0.2rem;
+  width: 190px;
+  cursor: pointer;
+  border-radius: 13px;
+  margin-left: 15px;
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+  main .portfolio_second_container {
+    height: 1700px;
+  }
+  main .portfolio_second_container figure {
+    width: 70%;
+  }
+  main .portfolio_second_container #Modal-box .caption {
+    width: 70%;
+  }
+  main .portfolio_second_container article {
+    width: 80%;
+  }
+  main .portfolio_second_container article p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+  main .portfolio_second_container {
+    height: 1700px;
+  }
+  main .portfolio_second_container figure {
+    width: 70%;
+  }
+  main .portfolio_second_container #Modal-box .img {
+    background-size: 100% 100%;
+    width: 80%;
+    height: 50%;
+  }
+  main .portfolio_second_container #Modal-box .caption {
+    width: 80%;
+  }
+  main .portfolio_second_container #Modal-box .caption h2 {
+    font-size: 50px;
+  }
+  main .portfolio_second_container article {
+    width: 90%;
+  }
+  main .portfolio_second_container article p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 637px) {
+  main .portfolio_second_container {
+    height: 1750px;
+  }
+  main .portfolio_second_container figure {
+    width: 70%;
+  }
+  main .portfolio_second_container #Modal-box .img {
+    background-size: 100% 100%;
+    width: 80%;
+    height: 50%;
+  }
+  main .portfolio_second_container #Modal-box .caption {
+    width: 80%;
+  }
+  main .portfolio_second_container #Modal-box .caption h2 {
+    font-size: 40px;
+  }
+  main .portfolio_second_container article {
+    width: 90%;
+  }
+  main .portfolio_second_container article p {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 636px) and (min-width: 479px) {
+  main .portfolio_second_container {
+    height: 1700px;
+  }
+  main .portfolio_second_container figure {
+    width: 60%;
+  }
+  main .portfolio_second_container #Modal-box .img {
+    background-size: 100% 100%;
+    width: 90%;
+    height: 50%;
+  }
+  main .portfolio_second_container #Modal-box .caption {
+    width: 90%;
+  }
+  main .portfolio_second_container #Modal-box .caption h2 {
+    font-size: 40px;
+  }
+  main .portfolio_second_container article {
+    width: 100%;
+  }
+  main .portfolio_second_container article p {
+    font-size: 13px;
+  }
+  main .portfolio_second_container article .see_lived .buttons button:nth-child(1), main .portfolio_second_container article .see_lived .buttons button:nth-child(2) {
+    height: 50px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 480px) {
+  main .portfolio_second_container {
+    height: 1700px;
+  }
+  main .portfolio_second_container figure {
+    width: 100%;
+  }
+  main .portfolio_second_container #Modal-box .img {
+    background-size: 100% 100%;
+    width: 95%;
+    height: 40%;
+  }
+  main .portfolio_second_container #Modal-box .caption {
+    width: 95%;
+  }
+  main .portfolio_second_container #Modal-box .caption h2 {
+    font-size: 40px;
+  }
+  main .portfolio_second_container article {
+    width: 100%;
+  }
+  main .portfolio_second_container article p {
+    font-size: 12px;
+  }
+  main .portfolio_second_container article .see_lived .buttons button:nth-child(1), main .portfolio_second_container article .see_lived .buttons button:nth-child(2) {
+    height: 50px;
+    font-size: 12px;
+    width: 160px;
+  }
+}
+@media screen and (min-width: 374px) and (max-width: 455px) {
+  main .main-container {
+    height: 850px;
+  }
+  main .portfolio_second_container {
+    height: 1900px;
+  }
+  main .portfolio_second_container figure {
+    width: 100% !important;
+    height: auto;
+  }
+  main .portfolio_second_container #Modal-box .img {
+    background-size: 100% 100%;
+    width: 95%;
+    height: 30%;
+  }
+  main .portfolio_second_container #Modal-box .caption {
+    width: 95%;
+  }
+  main .portfolio_second_container #Modal-box .caption h2 {
+    font-size: 30px;
+  }
+  main .portfolio_second_container article p {
+    font-size: 11px;
+  }
+  main .portfolio_second_container article .tools_used p {
+    font-size: 8px !important;
+  }
+  main .portfolio_second_container article .see_lived .buttons {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  main .portfolio_second_container article .see_lived .buttons button {
+    width: 90% !important;
+    display: block;
+    margin: 10px auto;
+  }
+  footer .container .context {
+    margin-bottom: 20px;
+  }
+}/*# sourceMappingURL=portfolio.css.map */

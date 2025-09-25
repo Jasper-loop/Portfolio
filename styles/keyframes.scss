@@ -1,0 +1,288 @@
+// Animation
+
+/* Header */
+
+//header
+@keyframes Header { // uses scroll-based timeline to call the animation in scrolling only
+    to{
+        -webkit-backdrop-filter:blur(5px);
+        backdrop-filter:blur(5px);
+        background-color: rgba(35, 35, 35, 0);
+    }
+}
+//box-1
+@keyframes Box_1 {
+    to{
+        background-color: rgb(35, 35, 35);
+    }
+}
+//box-2
+@keyframes Box_2 {
+    to{
+        background-color: rgb(35, 35, 35);
+    }
+}
+
+/* Main */
+
+// (main-container)
+//1. social
+@keyframes side_social {
+    from{
+        transform: translateX(-20px);
+        opacity:0;
+    }
+    to{
+        transform: translateX(0);
+        opacity:1;
+    }
+}
+//2. header
+@keyframes header {
+    from{
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+//3. text
+@keyframes main_container_text {
+    from{
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity:1;
+    }
+}
+//4. button
+@keyframes main_container_button {
+    from{
+        transform: translateY(-10px) scale(0.6);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0) scale(1);
+        opacity:1;
+    }
+}
+
+// (second-container)
+
+//1. header
+// the view-based-timeline to call the animation when it shows in the view port
+// uses in the rest
+@keyframes second_container_header {
+    from{
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1);
+        opacity:1
+    }
+}
+//2. text
+@keyframes second_container_text {
+    from{
+        opacity:0;
+        transform: scale(0.5);
+    }
+    to{
+        transform:scale(1);
+        opacity:1;
+    }
+}
+
+// container-2
+// get_to_know_me
+@keyframes left {
+    from{
+        transform: translateX(-100px);
+        opacity:0;
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+// skills
+@keyframes right {
+    from{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes one {
+    from{
+        transform: scale(0);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@keyframes two {
+    from{
+        transform: scale(0);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@keyframes three {
+    from{
+        transform: scale(0);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@keyframes four {
+    from{
+        transform: scale(0);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@keyframes five {
+    from{
+        transform: scale(0);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@keyframes six {
+    from{
+        transform: scale(0);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@keyframes seven {
+    from{
+        transform: scale(0);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@keyframes eight {
+    from{
+        transform: scale(0);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+//third_container
+// header
+@keyframes third_container_header {
+    from{
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1);
+        opacity:1
+    }
+}
+//2. text
+@keyframes third_container_text {
+    from{
+        opacity:0;
+        transform: scale(0.5);
+    }
+    to{
+        transform:scale(1);
+        opacity:1;
+    }
+}
+
+//fourth_container
+// header
+@keyframes fourth_container_header {
+    from{
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1);
+        opacity:1
+    }
+}
+//2. text
+@keyframes fourth_container_text {
+    from{
+        opacity:0;
+        transform: scale(0.5);
+    }
+    to{
+        transform:scale(1);
+        opacity:1;
+    }
+}
+
+// third-container
+// figure
+@keyframes one_image {
+    from{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+// content
+@keyframes one_text {
+    from{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+//fourth container
+//form
+@keyframes form {
+    from{
+        transform: scale(0);
+        opacity: 0;
+    }    
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
