@@ -43,10 +43,10 @@ ekis.addEventListener("click",()=>{
   ekis.innerHTML = "";
 })
 // Navigation 
-document.getElementById("Direct_Portfolio").addEventListener("click",(ev)=>{
-  ev.preventDefault();
-  window.location.href="Projects/Portfolio.html";
-});
+function Direct_Portfolio(event){
+    event.preventDefault();
+    window.location.href="Projects/Portfolio.html";
+};
 
 function Link_index(){
   window.location.href="/Portfolio/index.html";
@@ -86,5 +86,6 @@ function validate(event){
     alert("Thanks " + name + " for messaging me!")
   }
 }
+
 
 
