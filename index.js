@@ -1,18 +1,5 @@
 let get = document.getElementsByClassName("Menu")[0];
 
-document.getElementById("Direct_Portfolio").addEventListener("click",(ev)=>{
-  ev.preventDefault();
-  window.location.href="Projects/Portfolio.html";
-});
-
-function Link_index(){
-  window.location.href="/Portfolio/index.html";
-}
-
-function Back_Home(){
-  window.location.href="/Portfolio/index.html";
-}
-
 function outer(){
     let number = 1;
     return ()=>{
@@ -29,6 +16,20 @@ function myMenu(){
     get.style.display = "none";
   }
 }
+
+document.getElementById("Direct_Portfolio").addEventListener("click",(ev)=>{
+  ev.preventDefault();
+  window.location.href="Projects/Portfolio.html";
+});
+
+function Link_index(){
+  window.location.href="/Portfolio/index.html";
+}
+
+function Back_Home(){
+  window.location.href="/Portfolio/index.html";
+}
+
 
 // Modal
 let modal = document.getElementById("modal");
@@ -86,3 +87,4 @@ function validate(event){
     alert("Thanks " + name + " for messaging me!")
   }
 }
+
