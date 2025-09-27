@@ -17,21 +17,7 @@ function myMenu(){
   }
 }
 
-document.getElementById("Direct_Portfolio").addEventListener("click",(ev)=>{
-  ev.preventDefault();
-  window.location.href="Projects/Portfolio.html";
-});
-
-function Link_index(){
-  window.location.href="/Portfolio/index.html";
-}
-
-function Back_Home(){
-  window.location.href="/Portfolio/index.html";
-}
-
-
-// Modal
+// Modal image
 let modal = document.getElementById("modal");
 let Modal_box = document.getElementById("Modal-box");
 let body = document.getElementsByTagName("body")[0];
@@ -56,7 +42,20 @@ ekis.addEventListener("click",()=>{
   caption.innerHTML = "";
   ekis.innerHTML = "";
 })
+// Navigation 
+document.getElementById("Direct_Portfolio").addEventListener("click",(ev)=>{
+  ev.preventDefault();
+  window.location.href="Projects/Portfolio.html";
+});
 
+function Link_index(){
+  window.location.href="/Portfolio/index.html";
+}
+
+function Back_Home(){
+  window.location.href="/Portfolio/index.html";
+}
+// Setting Data
 let name = document.getElementById("name").value;
 let email = document.getElementById("email").value;
 let message = document.getElementById("message").value;
@@ -87,4 +86,5 @@ function validate(event){
     alert("Thanks " + name + " for messaging me!")
   }
 }
+
 
